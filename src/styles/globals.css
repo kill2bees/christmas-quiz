@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0; /* Optional: A subtle off-white background */
+}
+
+.christmas-card {
+  border: 2px solid red; /* Red border for the card */
+  border-radius: 10px; /* Slightly rounded corners */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.christmas-button {
+  background-color: #c20000; /* Deep red background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  margin: 5px; /* Spacing between buttons */
+}
+
+.christmas-button:hover {
+  background-color: #a40000; /* Slightly darker red on hover */
+}
+
+.christmas-input {
+  border: 2px solid #c20000; /* Red border for input fields */
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px 0; /* Spacing around input fields */
+  width: 80%; /* Adjust width as needed */
+}
+
+.horizontal-bounce {
+  animation: horizontal-bounce 2s ease infinite;
+}
+
+@keyframes horizontal-bounce {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+}
